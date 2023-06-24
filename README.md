@@ -25,7 +25,6 @@ icons_font = io.Fonts->AddFontFromMemoryCompressedTTF(font_awesome_data, font_aw
 // Define this outside your Initialize (ImGui Creation) function.
 inline ImFont* icons_font = nullptr;
 
-
 // Example Code | Place this in your render function.
 ImGui::PushFont(icons_font);
 ImGui::Text(ICON_FA_AXE); // You can find all the defined icons in font_awesome.h
